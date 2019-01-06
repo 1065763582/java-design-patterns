@@ -1,4 +1,4 @@
-package com.lizq.design.creational.factory.simple;
+package com.lizq.design.creational.factory.com.lizq.design.model;
 
 /**
  * 学习java的同学
