@@ -1,6 +1,6 @@
 package com.lizq.design.creational.factory.method;
 
-import com.lizq.design.creational.factory.com.lizq.design.model.Student;
+import com.lizq.design.model.Student;
 
 /**
  * 应用层

@@ -1,8 +1,8 @@
 package com.lizq.design.creational.factory.simple;
 
-import com.lizq.design.creational.factory.com.lizq.design.model.JavaStudent;
-import com.lizq.design.creational.factory.com.lizq.design.model.PythonStudent;
-import com.lizq.design.creational.factory.com.lizq.design.model.Student;
+import com.lizq.design.model.JavaStudent;
+import com.lizq.design.model.PythonStudent;
+import com.lizq.design.model.Student;
 
 /**
  * 学生工厂类

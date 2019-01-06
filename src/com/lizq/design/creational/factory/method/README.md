@@ -23,3 +23,4 @@ eg: 新增一个类，除了新增类本身，还需要新增一个配套的工�
 
 #### 类图
 
+![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/factoryMethod.svg)

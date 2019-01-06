@@ -1,4 +1,4 @@
-package com.lizq.design.creational.factory.com.lizq.design.model;
+package com.lizq.design.model;
 
 /**
  * 学习Python的同学

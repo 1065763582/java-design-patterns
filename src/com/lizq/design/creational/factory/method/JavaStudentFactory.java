@@ -1,7 +1,7 @@
 package com.lizq.design.creational.factory.method;
 
-import com.lizq.design.creational.factory.com.lizq.design.model.JavaStudent;
-import com.lizq.design.creational.factory.com.lizq.design.model.Student;
+import com.lizq.design.model.JavaStudent;
+import com.lizq.design.model.Student;
 
 /**
  * java同学工厂
