@@ -15,3 +15,7 @@
 
 1. 由于工厂类集中了所有实例的创建逻辑，导致工厂类职责相对过重
 2. 若要增加新的类，需要修改工厂类的判断逻辑，违背了开闭原则
+
+#### 类图
+
+![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/simpleFactory.svg)
