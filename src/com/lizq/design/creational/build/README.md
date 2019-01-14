@@ -18,4 +18,16 @@
 
 #### 类图
 
-![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/simpleFactory.svg)
+![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/builder.svg)
+
+#### Q&A
+
+1. 相比工厂系列的区别？
+
+   建造者模式适合创建复合的类（类中含有大量引用类型，并且这些类也需要实例化），强调装配，不同装配顺序可能产生不一样的类逻辑。而工厂系列适合创建单一性质的类，同一个工厂创建出来的类逻辑上是一样的，物理上的内存地址不一样。
+
+2. 为什么需要一个Director？
+
+   a.  隔离应用层和类生产过程
+
+   b.  Director只针对抽象建造者编程，符合类的单一职责原因

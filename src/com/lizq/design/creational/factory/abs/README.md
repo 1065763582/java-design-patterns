@@ -21,7 +21,7 @@
 
 #### 类图
 
-![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/AbstractFactory.svg)
+![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/abstractFactory.svg)
 
 ##### 与工厂方法模式的区别：产品等级结构 与 产品族
 
