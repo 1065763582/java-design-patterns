@@ -1,4 +1,4 @@
-# 单例模式
+# 单例模式(Signleton Pattern)
 
 创建型
 
