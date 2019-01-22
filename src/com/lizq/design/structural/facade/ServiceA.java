@@ -6,6 +6,6 @@ package com.lizq.design.structural.facade;
  */
 public class ServiceA {
     public void operation(){
-        System.out.println("operation A");
+        System.out.println("bridgeOperation A");
     }
 }
