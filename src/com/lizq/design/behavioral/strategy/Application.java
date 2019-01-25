@@ -10,5 +10,7 @@ public class Application {
         Context context = new Context();
         context.setStrategy(strategy);
         context.doHandle();
+
+        StrategyEnum.STRATEGY_A.handle();
     }
 }
