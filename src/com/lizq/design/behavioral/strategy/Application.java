@@ -7,10 +7,8 @@ package com.lizq.design.behavioral.strategy;
 public class Application {
     public static void main(String[] args) {
         Strategy strategy = new ConcreteStrategyA();
-        Context context = new Context();
-        context.setStrategy(strategy);
+        Context context = new Context(strategy);
         context.doHandle();
-
         StrategyEnum.STRATEGY_A.handle();
     }
 }

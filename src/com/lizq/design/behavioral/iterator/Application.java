@@ -6,6 +6,11 @@ package com.lizq.design.behavioral.iterator;
  */
 public class Application {
     public static void main(String[] args) {
-
+        Aggregate aggregate = new ConcreteAggregate();
+        Iterator iterator = aggregate.getIterator();
+        while(iterator.hasNext()){
+            int i = (int) iterator.next();
+            System.out.println(i);
+        }
     }
 }
