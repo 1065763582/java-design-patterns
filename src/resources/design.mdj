@@ -36901,6 +36901,22 @@
 							]
 						}
 					]
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFoinIPNGB11QY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "com.lizq.design.structural.proxy"
+				},
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFoinI8WWCFm34=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "proxy"
 				}
 			]
 		}
