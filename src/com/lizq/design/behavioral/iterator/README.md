@@ -22,5 +22,5 @@
 ![类图](https://github.com/1065763582/java-design-patterns/blob/master/src/resources/img/iterator.svg)
 
 #### Q&A
-1.  并发怎么处理，比如一个线程在遍历，而另一个线程在添加或删除？
+1.  并发怎么处理，比如一个线程在遍历，而另一个线程在添加或删除?  
     参照JDK迭代器的源码，可以在Aggregate中添加modCount属性记录修改次数，在Iterator实现中添加expectedModCount属性。获取到迭代器时，记录下当前聚合对象的修改次数，每次迭代操作时比较expectedModCount == modCount，如果false就抛出异常提示
