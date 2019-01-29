@@ -9,7 +9,7 @@ public class Context {
     private Handler b = new ConcreteHandlerB();
     private Handler c = new ConcreteHandlerC();
 
-    public String doABC(Request request){
+    public String doABC(Request request) {
         this.clear();
         a.setNext(b);
         b.setNext(c);
@@ -17,14 +17,14 @@ public class Context {
     }
 
 
-    public String doCBA(Request request){
+    public String doCBA(Request request) {
         this.clear();
         c.setNext(b);
         b.setNext(a);
         return c.handleMessage(request);
     }
 
-    private void clear(){
+    private void clear() {
         a.setNext(null);
         b.setNext(null);
         c.setNext(null);
